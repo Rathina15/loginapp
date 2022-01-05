@@ -1,27 +1,15 @@
 import './App.css';
-
+import {Login2} from './login2';
+import {Login3} from './login3';
+import {Login4} from './login4';
 function App() {
   return (
-   
-     
-    
-    
-    <form>
-      <div className='form2'>
-    <div className='login'>
-   <h1><u>LOGIN FORM </u></h1>
+   <div> 
+    <Login2 /> 
+   <Login3 /> 
+   <Login4 /> 
    </div>
-   
-     <h2>USERNAME:</h2> <input type='text' placeholder='Enter your name'></input><br></br>
-     <h2>PASSWORD:</h2> <input type='password' placeholder='Enter the password'></input><br></br>
-      <h1><button onclick ="alert('Successfully Logined!')">Login:</button><br></br></h1>
-      </div>
-    </form>
-    
-  
- 
- 
-        
+     
   );
 }
 
