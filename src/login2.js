@@ -11,6 +11,8 @@ export function Login2() {
      
       
       </div>
-    </form></div>)
+
+    </form>
+    </div>);
 }
 
