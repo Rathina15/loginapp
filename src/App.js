@@ -4,7 +4,7 @@ import {Login3} from './login3';
 import {Login4} from './login4';
 function App() {
   return (
-   <div className='login2'> 
+   <div className='login2'>
     <Login2 /> 
     <div>
    <Login3 /> </div>
