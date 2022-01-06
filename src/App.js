@@ -4,14 +4,18 @@ import {Login3} from './login3';
 import {Login4} from './login4';
 function App() {
   return (
-   <div className='login2'>
+   <div className='App'>
+     <center>
     <Login2 /> 
-    <div>
-   <Login3 /> </div>
+    <div >
+   <Login3 />
+    </div>
    <div>
-   <Login4 /> </div>
+   <Login4 /> 
    </div>
-     
+   </center>
+   </div>
+   
   );
 }
 
